@@ -1,0 +1,25 @@
+{
+  "name": "prismacode",
+  "version": "1.0.0",
+  "description": "Minimal Hono app scaffold for Prisma App deploys",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prisma:login": "npx --yes @prisma/cli@preview auth login",
+    "prisma:deploy": "npx --yes @prisma/cli@preview app deploy --framework hono --entry src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbvix/prismacode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jbvix/prismacode/issues"
+  },
+  "homepage": "https://github.com/Jbvix/prismacode#readme",
+  "dependencies": {
+    "hono": "^4.12.27"
+  }
+}
