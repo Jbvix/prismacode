@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "prisma:login": "npx --yes @prisma/cli@preview auth login",
-    "prisma:deploy": "npx --yes @prisma/cli@preview app deploy --app cmqzqln090wnp15e1wjctckky --framework hono --entry src/index.js"
+    "prisma:deploy": "npx --yes @prisma/cli@preview app deploy --framework hono --entry src/index.js"
   },
   "repository": {
     "type": "git",

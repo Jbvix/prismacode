@@ -27,7 +27,7 @@ npm run prisma:login
 ### 3. Deploy the app
 
 ```sh
-npm run prisma:deploy
+npm run prisma:deploy -- --app cmqzqln090wnp15e1wjctckky
 ```
 
 If you prefer Bun, this is the equivalent command:
